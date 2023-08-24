@@ -31,6 +31,6 @@ public class ContaBanco extends Pessoa {
             "Olá %s, obrigado por criar uma conta em nosso banco, " +
             "sua agência é %s, conta %d e seu saldo %,.2f, " +
             "já está disponível para saque",
-            this.nomeCliente, this.agencia, this.numero, this.saldo);
+            this.nome, this.agencia, this.numero, this.saldo);
     }
 }

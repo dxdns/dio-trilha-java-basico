@@ -1,7 +1,7 @@
 public class Pessoa {
-    protected String nomeCliente;
+    protected String nome;
 
     public Pessoa(String nome) {
-        this.nomeCliente = nome;
+        this.nome = nome;
     }
 }
