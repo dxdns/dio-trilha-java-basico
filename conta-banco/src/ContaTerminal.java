@@ -1,5 +1,6 @@
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        ContaBanco cc = new ContaBanco(1, "234", "test");
+        System.out.println(cc.toString());
     }
 }
