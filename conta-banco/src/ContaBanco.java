@@ -5,15 +5,15 @@ public class ContaBanco extends Pessoa {
 
     public ContaBanco(int numero, String agencia, String nomeCliente) {
         super(nomeCliente);
-        this.numero = numero;
+        setNumero(numero);
+        setAgencia(agencia);
+    }
+
+    private void setAgencia(String agencia) {
         this.agencia = agencia;
     }
 
-    public void setAgencia(String agencia) {
-        this.agencia = agencia;
-    }
-
-    public void setNumero(int numero) {
+    private void setNumero(int numero) {
         this.numero = numero;
     }
 
